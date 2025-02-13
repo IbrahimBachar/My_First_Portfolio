@@ -1,1 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
 
+main {
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+h1 {
+    font-size: 2em;
+    color: brown;
+}
+h2 {
+    font-size: 1.5em;
+    color: rgb(229, 103, 103);
+}
+h3 {
+    font-size: 1.17em;
+    color: rgb(103, 103, 229);
+}
+
+p {
+    font-size: 1em;
+    color: rgb(5, 67, 5);
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
